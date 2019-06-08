@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec361f2-ceeb-451c-9ba6-0e9ba7515832" name="Default Changelist" comment="" />
+    <list default="true" id="cec361f2-ceeb-451c-9ba6-0e9ba7515832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/dummy" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +15,11 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="260" />
@@ -29,7 +27,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -43,6 +43,17 @@
             <path>
               <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
               <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -80,12 +91,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560003087746</updated>
-      <workItem from="1560003092455" duration="1828000" />
+      <workItem from="1560003092455" duration="2638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1828000" />
+    <option name="totallyTimeSpent" value="2638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="22" width="1400" height="1000" extended-state="0" />

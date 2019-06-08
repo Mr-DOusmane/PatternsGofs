@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec361f2-ceeb-451c-9ba6-0e9ba7515832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/dummy" afterDir="false" />
-    </list>
+    <list default="true" id="cec361f2-ceeb-451c-9ba6-0e9ba7515832" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +53,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -91,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560003087746</updated>
-      <workItem from="1560003092455" duration="2638000" />
+      <workItem from="1560003092455" duration="2975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2638000" />
+    <option name="totallyTimeSpent" value="2975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="22" width="1400" height="1000" extended-state="0" />

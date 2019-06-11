@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec361f2-ceeb-451c-9ba6-0e9ba7515832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/RectangleClassAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/RectangleObjectAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/ClockState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/MainState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/NormalDisplayState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/UpdatingHrState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/UpdatingMinState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/UpdatingSecState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/ArrayDisplayFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MainStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MathFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/StandardFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/ConcreteVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/ConcreteVisitor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/MainVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/VisitableDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/VisitableInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/VisitableString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visitor/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Poligona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/dummy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategy/dummy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/dummy" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,50 +40,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/MyArray.java">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/Visitable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/ArrayDisplayFormat.java">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/Visitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/StandardFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="120">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/MainStrategy.java">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/ConcreteVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/ConcreteVisitor2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/MainVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,10 +88,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/MathFormat.java">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/VisitableString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/VisitableInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/VisitableDouble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,13 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Observer/ObsPatient1.java" />
-        <option value="$PROJECT_DIR$/src/Observer/ObsPatient2.java" />
-        <option value="$PROJECT_DIR$/src/Observer/MainObserver.java" />
-        <option value="$PROJECT_DIR$/src/Observer/Patient.java" />
-        <option value="$PROJECT_DIR$/src/AbstractFactory/Recorder.java" />
-        <option value="$PROJECT_DIR$/src/AbstractFactory/Player.java" />
-        <option value="$PROJECT_DIR$/src/AbstractFactory/DevicesFactory.java" />
         <option value="$PROJECT_DIR$/src/AbstractFactory/CD.java" />
         <option value="$PROJECT_DIR$/src/AbstractFactory/Tape.java" />
         <option value="$PROJECT_DIR$/src/AbstractFactory/TapeRecorder.java" />
@@ -177,10 +197,18 @@
         <option value="$PROJECT_DIR$/src/Strategy/StandardFormat.java" />
         <option value="$PROJECT_DIR$/src/Strategy/MainStrategy.java" />
         <option value="$PROJECT_DIR$/src/Strategy/MyArray.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/Visitable.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/VisitableString.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/VisitableInt.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/VisitableDouble.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/ConcreteVisitor2.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/MainVisitor.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/ConcreteVisitor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="236" />
     <option name="width" value="1400" />
     <option name="height" value="759" />
@@ -210,13 +238,7 @@
               <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
               <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PatternGofs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PatternGofs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,20 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainStrategy">
-    <configuration name="MainDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.MainDecorator" />
-      <module name="PatternGofs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainVisitor">
     <configuration name="MainState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="State.MainState" />
       <module name="PatternGofs" />
@@ -278,6 +287,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Visitor.MainVisitor" />
+      <module name="PatternGofs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainVisitor" />
         <item itemvalue="Application.MainStrategy" />
         <item itemvalue="Application.MainState" />
         <item itemvalue="Application.RectangleObjectAdapter" />
         <item itemvalue="Application.RectangleClassAdapter" />
-        <item itemvalue="Application.MainDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -334,18 +356,18 @@
       <workItem from="1560003092455" duration="3308000" />
       <workItem from="1560073794654" duration="12355000" />
       <workItem from="1560166015263" duration="11472000" />
-      <workItem from="1560244596323" duration="16711000" />
+      <workItem from="1560244596323" duration="20834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43846000" />
+    <option name="totallyTimeSpent" value="47969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="0" width="1400" height="759" extended-state="0" />
+    <frame x="-4" y="0" width="1928" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25928676" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18623266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41945773" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47489083" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,83 +402,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Observer/ObsPatient2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/MainObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Media.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/DevicesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Recorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/CD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/TapeRecorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Tape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -990,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/MathFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Strategy/ArrayDisplayFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1031,6 +969,96 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/MathFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Visitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/VisitableInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/VisitableDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/MainVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/ConcreteVisitor2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/VisitableString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/ConcreteVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
